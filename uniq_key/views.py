@@ -7,7 +7,7 @@ from keys.settings import KEY_GENERATOR
 
 
 @api_view(['GET', 'POST'])
-def task_list(request):
+def key_list(request):
     """
     Get a count keys, or create a new key.
     """
@@ -26,7 +26,7 @@ def task_list(request):
 
 
 @api_view(['GET', 'PUT'])
-def task_detail(request, value):
+def key_detail(request, value):
     """
     Get a key status, repaid key
     """
